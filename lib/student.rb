@@ -50,7 +50,7 @@ def self.students_below_12th_grade
   end
 end
 
-def self.first_X_students_in_grade_10
+def self.first_X_students_in_grade_10(number)
   sql = <<-SQL
     SELECT *
     FROM students
